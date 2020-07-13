@@ -9,8 +9,11 @@
 body{
     font-size: 14px;
     font-family: "微软雅黑","宋体";
-    
-    
+}
+.current{
+    color: #E2E4ED;
+    background: #252947;
+    text-decoration: underline;
 }
 .inner_c{
     width: 1000px;
@@ -60,13 +63,9 @@ body{
 .header .nav ul li.current{
     color: #E2E4ED;
     background: #252947;
-
-}
-.header .nav ul li a:hover{
-    color: #E2E4ED;
-    background: #252947;
     text-decoration: underline;
 }
+
 .header .jrwm{
     float: left;
     padding-top: 12px;
